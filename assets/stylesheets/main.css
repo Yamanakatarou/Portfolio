@@ -118,3 +118,22 @@ table {
   border-spacing: 0;
 }
 
+nav a {
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #554433;
+    color: #fdffef;
+    padding: 15px 15px;
+    border-right: 2px solid black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #cebcb4;
+}
+
+nav li:last-child a {
+    border-right: 0;
+
+}
